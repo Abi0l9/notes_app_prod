@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldiIsImlkIjoiNjNlZGYxMzNmYzQ2ZGRhYzkzNGM0MDYxIiwiaWF0IjoxNjc2NTM4MTg1LCJleHAiOjE2NzY1NDg5ODV9.Y3dmqbURZK3cr9zv5wo-QIWiFk6Ls15A0Eo8bE9D5Wo
+
+{
+    "title":"first dev note",
+    "body":"Body of the first dev note"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "notes_app",
+  "version": "1.0.0",
+  "description": "A note app that gives users the ability to create, read, update and delete notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abi0l9/Notes_App.git"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "Abi0l9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abi0l9/Notes_App/issues"
+  },
+  "homepage": "https://github.com/Abi0l9/Notes_App#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "mongoose-unique-validator": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
